@@ -1,0 +1,1144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Naruto",
+      "author": "Masashi Kishimoto",
+      "description": "The story of Naruto Uzumaki, a young ninja striving to become Hokage.",
+      "price": 80000,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 0,
+      "brand": "Kim Đồng",
+      "category": "Manga",
+      "language": "Japanese",
+      "availability": true,
+      "thumbnail": "https://down-vn.img.susercontent.com/file/fd3cfa4b0d79b23839f2cef5ab7d29f1.webp",
+      "images": [
+        "https://down-vn.img.susercontent.com/file/4c15d83e60687cc3f426c0ab863968b0.webp",
+        "https://down-vn.img.susercontent.com/file/93e4d12dacea005e1ed1cbdc67d3069d.webp",
+        "https://down-vn.img.susercontent.com/file/2525c6a2a25ab654c9740c95f0f32244.webp",
+        "https://down-vn.img.susercontent.com/file/7dec2d8352f01e12cdc00909b4441d73.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "One Piece",
+      "author": "Eiichiro Oda",
+      "description": "Follow Monkey D. Luffy and his crew in their quest to find the One Piece treasure.",
+      "price": 90000,
+      "discountPercentage": 15,
+      "rating": 4.9,
+      "stock": 40,
+      "brand": "Kim Đồng",
+      "category": "Manga",
+      "language": "Japanese",
+      "availability": true,
+      "thumbnail": "https://down-vn.img.susercontent.com/file/3e0339e9e42cc0917917326f62200623.webp",
+      "images": [
+        "https://m.media-amazon.com/images/I/81MLf-pgXrL._SL1200_.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3QZRvZjKpceypHiP-4M2-jfHE3tq_Y2X3MQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqIabr1HMla3PbcfA5Zv7I-3-MdocNa7r1gw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSBZh2UpzLj8efScUh-KXZcfKbIaJeF4P7uQ&s"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Attack on Titan",
+      "author": "Hajime Isayama",
+      "description": "The epic battle between humanity and the Titans.",
+      "price": 95000,
+      "discountPercentage": 12,
+      "rating": 4.7,
+      "stock": 35,
+      "brand": "Kim Đồng",
+      "category": "Manga",
+      "language": "Japanese",
+      "availability": true,
+      "thumbnail": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3lqxs8drpv9a7.webp",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPHGV2Cul-FuQUdTjJu_d8YMxl0ZQJJLQNg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0lOWkR3s4rujmC9IeaqgHtqCd7fIwYQr2nQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNwbYd8spCV_oftN79aJutwwJyDQbquwXxTA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl9pWUA1HZaRwzLced2Xy1GR0-WcotuwtVTQ&s"
+      ],
+      "deleted": true
+    },
+    {
+      "id": 4,
+      "title": "Kimetsu no Yaiba",
+      "author": "Koyoharu Gotouge",
+      "description": "The tale of Tanjiro Kamado and his journey to save his sister.",
+      "price": 85000,
+      "discountPercentage": 8,
+      "rating": 4.8,
+      "stock": 45,
+      "brand": "Kim Đồng",
+      "category": "Manga",
+      "language": "Japanese",
+      "availability": true,
+      "thumbnail": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lsm2mxzzi9qcaf.webp",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbU8RpXFVlchWuMUXk9__iBfuV2i_bL9Sndg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeFD3AevLsXWBN7s06nOJHsCjeMBzrgYUjKw&s",
+        "https://senvietbookscalendars.vn/Uploads/images/san-pham/San-Pham-Kim-Dong/thanh-guom-diet-quy/012.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidB3poBki1lA3aFVg6w2_PRJ7VldwqnMWsA&s"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Fairy Tail",
+      "author": "Hiro Mashima",
+      "description": "Join Natsu Dragneel and the Fairy Tail guild on their adventures.",
+      "price": 75000,
+      "discountPercentage": 10,
+      "rating": 4.6,
+      "stock": 30,
+      "brand": "Kim Đồng",
+      "category": "Manga",
+      "language": "Japanese",
+      "availability": true,
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/vi/e/e1/FairyTail-Volume_1_Cover.jpg",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS7MUOgw19yG_dJq0fV5qyKIXiaXc-iSq-SQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkEoSFmKZ1gSNgGqjKMcD_4BUnS9n5RVKosA&s",
+        "https://thegioimanga.vn/wp-content/uploads/2023/07/fairy-tail_06_jp_040-048_14-09-2007.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjoIWBZjQCmg8YpozUFfTB8dMZn7vS9w_K0A&s"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Doraemon",
+      "author": "Fujiko F. Fujio",
+      "description": "The adventures of a robot cat and his friend Nobita.",
+      "price": 70000,
+      "discountPercentage": 5,
+      "rating": 4.9,
+      "stock": 60,
+      "brand": "Kim Đồng",
+      "category": "Manga",
+      "language": "Japanese",
+      "availability": true,
+      "thumbnail": "https://manga-mon.com/cdn/shop/files/Doraemon_6Front.jpg?v=1689893716&width=990",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1JDOcmPcc3Byrj8amfEnk87lWAyKdCD4Seg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_IaKbGQIoIxw8ubNqlDkjgQzdyxBSkj1A-g&s",
+        "https://pbs.twimg.com/media/Eg9dU2kWAAAmUzd?format=jpg&name=large",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJf9NNXLyvUN2_LjlRFP-VPYYsq6ibbMSpw&s"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Truyện Kiều",
+      "author": "Nguyễn Du",
+      "description": "An iconic epic poem by Nguyễn Du that represents Vietnamese literature.",
+      "price": 60000,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 70,
+      "brand": "NXB Văn Học",
+      "category": "Viet Nam Literature",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://www.nxbtre.com.vn/Images/Book/NXBTreStoryFull_03462015_104616.jpg",
+      "images": [
+        "https://www.nxbtre.com.vn/Images/Book/NXBTreStoryFull_16322015_043233.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/b/_/b_a-1-truy_n-ki_u.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFdsMtB2qB8jEy5rr8fQZ80neUSxobfX63A&s",
+        "https://hcmussh.edu.vn/img/news/VD40Im_miBrIUXbiPV-0yTF_.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Chí Phèo",
+      "author": "Nam Cao",
+      "description": "A classic story by Nam Cao about the tragedy of the poor in Vietnam.",
+      "price": 55000,
+      "discountPercentage": 12,
+      "rating": 4.7,
+      "stock": 50,
+      "brand": "NXB Văn Học",
+      "category": "Viet Nam Literature",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://product.hstatic.net/200000696663/product/truyen-ngan-chi-pheo-nam-cao_17a42d45c5e84fdcb8a2365d91d4e2c6_grande.jpg",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmbfgA36uv2coH92Pt6utNpMGZchxbr41AamFFRQdxuQVRxXL9C6L7VwYaGCNkpx3hGlU&usqp=CAU",
+        "https://media-cdn-v2.laodong.vn/storage/newsportal/2017/12/8/580372/6-1_Opt.jpg?w=800&h=496&crop=auto&scale=both",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtoJNQPy_SW0do2KHBAzOsyo3lPp2Ah2PVg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvBItYqCtmikbPv1YbJDWKKIdpKx3KGv6_8Q&s"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Vợ Nhặt",
+      "author": "Kim Lân",
+      "description": "A story of poverty and love during wartime by Kim Lân.",
+      "price": 50000,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "stock": 40,
+      "brand": "NXB Văn Học",
+      "category": "Viet Nam Literature",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://thuviensachnoi.com/anh-book/vo-nhat.webp",
+      "images": [
+        "https://bizweb.dktcdn.net/100/370/339/products/vo-nhat.jpg?v=1652066335593",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/vo_nhat_tai_ban_2018/2021_02_19_15_17_28_1-390x510.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS48NJYRtHi_vZptNRJRZKBhQGWMMfA6USN6A&s",
+        "https://thuviensachnoi.com/anh-book/vo-nhat.webp"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Lão Hạc",
+      "author": "Nam Cao",
+      "description": "A poignant tale by Nam Cao about a man and his loyal dog.",
+      "price": 45000,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 30,
+      "brand": "NXB Văn Học",
+      "category": "Viet Nam Literature",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://bizweb.dktcdn.net/100/370/339/products/z4529778288710-9a538b8bcac451561af81cd240d963a1.jpg?v=1689758099500",
+      "images": [
+        "https://isach.info/images/story/cover/lao_hac__nam_cao.jpg",
+        "https://cdn.supo.vn/timsach/ebooks/thumb/200_300_fit/44c874ce8ebfbeafaecee2db3c34385e.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSYIyaNBXYa_GCNfhid9ab7S9LDYRsZLKxZg&s",
+        "https://cdn0.fahasa.com/media/catalog/product/l/a/lao_hac_1_2018_07_25_09_35_40.JPG"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Tắt Đèn",
+      "author": "Ngô Tất Tố",
+      "description": "A masterpiece by Ngô Tất Tố about the struggles of Vietnamese farmers.",
+      "price": 48000,
+      "discountPercentage": 8,
+      "rating": 4.6,
+      "stock": 35,
+      "brand": "NXB Văn Học",
+      "category": "Viet Nam Literature",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/vi/b/b1/T%E1%BA%AFt_%C4%91%C3%A8n-Nh%C3%A3_Nam.jpeg",
+      "images": [
+        "https://www.khaitam.com/Data/Sites/1/Product/10795/tat-den.png",
+        "https://cdn0.fahasa.com/media/catalog/product/i/m/image_119104.jpg",
+        "https://thcs-dongmai.edu.vn/uploads/thcsdongmai/news/2021_10/12_4.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS00WNO4NOPcztIYmFo8x8EXQYOWDk6IV0aNA&s"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "author": "Tô Hoài",
+      "description": "A beloved story by Tô Hoài about the adventures of a cricket.",
+      "price": 55000,
+      "discountPercentage": 5,
+      "rating": 4.9,
+      "stock": 50,
+      "brand": "Kim Đồng",
+      "category": "Viet Nam Literature",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR67akPhKpMsCfnASidqUdz5LrYtgNIfE8oQ&s",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgEMdThAEY-ZJKku3yLLpnHOLEp5sbXLPwQ&s",
+        "https://lh4.googleusercontent.com/proxy/lh0z72C2TFUQRg_iEuMygWCcUrG5fhRu_TpNiHUO-rvEzlBQT32GG5fkY5b17OFxzBNL-8AHWpqerZqb6B3ynbWmWue2IPTO0gbKKyg_mEJDe-YbFkvUQ6bHGyc",
+        "https://product.hstatic.net/200000343865/product/e-men-phieu-luu-ky-ban-viet-tay-63dix_39a1b9ba03c544d38811c58265d14a18_605822b345df42d59e1a96cb53a8eb67.jpg",
+        "https://lh3.googleusercontent.com/proxy/GxBhMSn5vQB_LajNYmtRZd8W9cN19yEYnbFIwuaA6AwfpLS273HkPXupV3FomQeYzSmJfommDas-wqj9lyeTm2zVsLB-DIEAN3enpZG-rYfvC1Knk9B1WGHiq6E"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A novel by F. Scott Fitzgerald about the American Dream.",
+      "price": 100000,
+      "discountPercentage": 20,
+      "rating": 4.4,
+      "stock": 45,
+      "brand": "Penguin",
+      "category": "Novel",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://skyhorse-us.imgix.net/covers/9781949846386.jpg?auto=format&w=298",
+      "images": [
+        "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781524879761/the-great-gatsby-9781524879761_hr.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjdVe_Uu_Iy8Ntt57gbKRIskJq3L81jYy3vw&s",
+        "https://product.hstatic.net/1000328521/product/1_10162db16c874d8a8e7fdb1dc060bc77_master.jpg",
+        "https://static.ybox.vn/2024/3/4/1710434452603-25.png"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel by George Orwell about totalitarianism.",
+      "price": 120000,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "stock": 60,
+      "brand": "Penguin",
+      "category": "Novel",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://www.luatkhoa.com/content/images/wp-content/uploads/2018/03/Untitled-21_227-1.jpg",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/vi/thumb/2/28/Nineteen_Eighty-Four_manuscript.jpg/165px-Nineteen_Eighty-Four_manuscript.jpg",
+        "https://i0.wp.com/lanlancorner.com/wp-content/uploads/2017/09/georgeorwellxobeygiantprintset-1984coverbyshepardfairey.jpeg?fit=500%2C817&ssl=1",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaSZYj7U_MuQOCLCt6VFQBLeOpV91kNZtFhA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThcFpWaD1TjSFXPtx03CLDIfeQh5O_leU1bg&s"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "Harper Lee's novel about racial injustice in the Deep South.",
+      "price": 110000,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 55,
+      "brand": "Harpercollins",
+      "category": "Novel",
+      "language": "english",
+      "availability": true,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ47hdVdqvYnKfZjmDVqTGX6a7UBFhnve-KA&s",
+      "images": [
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/to_kill_a_mockingbird/2024_02_20_11_21_21_2-390x510.png",
+        "https://img.sachtruyen.com.vn/images/to-kill-a-mockingbird/to-kill-a-mockingbird-0.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlkPpOLx5FHINaBievazUFhJ7z3outtPtDcw&s",
+        "https://imgs.vietnamnet.vn/Images/vnn/2015/02/06/08/20150206082227-1.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "description": "Herman Melville's epic tale of obsession and revenge on the high seas.",
+      "price": 130000,
+      "discountPercentage": 18,
+      "rating": 4.5,
+      "stock": 40,
+      "brand": "Penguin",
+      "category": "Novel",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://pos.nvncdn.com/d8267c-94460/ps/20220519_nymq2nfibQV9TPl8YfbQ41up.png",
+      "images": [
+        "https://khoahocphattrien.vn/Images/Uploaded/Share/2020/05/07/hai-1.jpg",
+        "https://www.elleman.vn/wp-content/uploads/2018/05/10/tieu-thuyet-Moby-dick-elle-man-3.jpg",
+        "https://m.media-amazon.com/images/I/61n8wJYJcdL.jpg",
+        "https://ss-images.saostar.vn/fb1200png_2/2015/12/14/141996/hts-eye-1-sheet.jpg/fbsscover.png"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "description": "The first book in the Harry Potter series, where Harry discovers he is a wizard and begins his journey at Hogwarts School of Witchcraft and Wizardry, exploring themes of friendship, courage, and the battle between good and evil.",
+      "price": 90000,
+      "discountPercentage": 24,
+      "rating": 4.7,
+      "stock": 65,
+      "brand": "Bloomsbury",
+      "category": "Novel",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://www.nxbtre.com.vn/Images/Book/nxbtre_full_21542017_035423.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/A1jGvzIZ7ZL.jpg",
+        "https://salt.tikicdn.com/cache/280x280/ts/product/e5/1d/e1/78a5040e782cb40c1e45b80f4e8fe68e.jpg",
+        "https://i.dummyjson.com/data/products/17/3.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/h/a/harry_potter_and_the_sorcerers_stone_paperback_3_2018_12_03_17_27_41.png"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "description": "A powerful story about friendship, redemption, and the impact of the past on the present.",
+      "price": 150000,
+      "discountPercentage": 10,
+      "rating": 4.7,
+      "stock": 40,
+      "brand": "Riverhead Books",
+      "category": "Novel",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://cdn0.fahasa.com/media/catalog/product/9/7/9781594632204.png",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT04twaAa7cZ11mFHfqXpgs3d1kFPaeL86i9w&s",
+        "https://windywindywings.wordpress.com/wp-content/uploads/2016/05/a7978907-d188-49b0-9a35-5a7e92dace8a.jpg?w=640",
+        "https://m.media-amazon.com/images/I/51uL2WJKsBL._AC_SY200_QL15_.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGUzRTfioyOywrprLrqHf6_K-KW2Mxltju8A&s"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Đắc Nhân Tâm",
+      "author": "Dale Carnegie",
+      "description": "A self-help book by Dale Carnegie on improving communication and relationships.",
+      "price": 85000,
+      "discountPercentage": 5,
+      "rating": 4.9,
+      "stock": 70,
+      "brand": "NXB Trẻ",
+      "category": "Self-Help",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://nxbhcm.com.vn/Image/Biasach/dacnhantam86.jpg",
+      "images": [
+        "https://bizweb.dktcdn.net/thumb/large/100/363/455/products/dacnhantam03.jpg?v=1705552096050",
+        "https://tiki.vn/blog/wp-content/uploads/2023/08/noi-dung-chinh-dac-nhan-tam-1024x682.jpg",
+        "https://sach100.org/wp-content/uploads/2021/04/dac-nhan-tam-8.jpg",
+        "https://salt.tikicdn.com/ts/product/72/6c/e2/3c5dffb59ba1020ca315da5fbb519629.jpghttps://i.dummyjson.com/data/products/19/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "7 Thói Quen Của Người Thành Đạt",
+      "author": "Stephen Covey",
+      "description": "Stephen Covey's guide to developing habits for personal and professional success.",
+      "price": 90000,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 80,
+      "brand": "NXB Trẻ",
+      "category": "Self-Help",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://static.ybox.vn/2017/2/13/ae6dea46-f1b5-11e6-a932-2e995a9a3302.jpg",
+      "images": [
+        "https://giadinh.phenikaa.com/wp-content/uploads/2024/03/1-5-768x614.png",
+        "https://upload.wikimedia.org/wikipedia/vi/4/45/7_Th%C3%B3i_Quen_%C4%90%E1%BB%83_Th%C3%A0nh_%C4%90%E1%BA%A1t.jpg",
+        "https://www.sachhayonline.com/book/uploads/images/2019/11/11/56/7-thoi-quen-de-thanh-dat-1_600x337.jpg",
+        "https://product.hstatic.net/200000408481/product/4_d9ce80718bf243ecb7c2f11bd9fe1f9a.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "description": "Napoleon Hill's classic on achieving success through a positive mindset.",
+      "price": 95000,
+      "discountPercentage": 12,
+      "rating": 4.9,
+      "stock": 60,
+      "brand": "Random House",
+      "category": "Self-Help",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://nhasachphuongnam.com/images/detailed/182/nghi-giau-va-lam-giau-kho-nho-tb-2020.jpg",
+      "images": [
+        "https://tokhaiyte.vn/wp-content/uploads/2024/05/think-and-grow-rich-nghi-giau-va-lam-giau-pdf.jpg",
+        "https://blog.bizbooks.vn/wp-content/uploads/2020/09/Think-and-Grow-Rich_-16-Nguy%C3%AAn-t%E1%BA%AFc-ngh%C4%A9-gi%C3%A0u-l%C3%A0m-gi%C3%A0u-trong-th%E1%BA%BF-k%E1%BB%B7-21.png",
+        "https://sachtinhhoa.vn/wp-content/uploads/2021/10/Thap-sang-Uoc-mo-va-Hanh-dong-la-dieu-dau-tien-ma-ban-can-phai-lam-1.png",
+        "https://img.giaoduc.net.vn/w1000/Uploaded/2024/dqmblcvo/2020_02_17/Anh_1__Bia_cuon_sach_goc_co_ten_tac_gia_bien_soan_va_bia_cuon_sach_Thai_Ha_Books_khong_he_ghi_tac_gia_bien_soan_ma_chi_de_ten_tac_gia_sach_goc_la_Napoleon_Hill.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "description": "Charles Duhigg's book on the science behind habit formation.",
+      "price": 100000,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 75,
+      "brand": "Random House",
+      "category": "Self-Help",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://pos.nvncdn.com/fd5775-40602/ps/20240109_WgvTT2bI3N.jpeg",
+      "images": [
+        "https://cdn0.fahasa.com/media/catalog/product/t/h/the_power_of_habit_3_2018_11_03_10_20_23.png",
+        "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348834155i/13718614.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFuvZtPL7-YwvwOXe_pLEJK5xaD7pqyAw4ZQ&s",
+        "https://product.hstatic.net/200000696663/product/combo_sach_suc_manh_cua_thoi_quen_va_suc_manh_cua_tap_trung_3ebef87f5f2d4a819d1ab1106b51b092_1024x1024.jpeg"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "description": "James Clear's guide on building small habits for long-term success.",
+      "price": 105000,
+      "discountPercentage": 20,
+      "rating": 4.8,
+      "stock": 50,
+      "brand": "Random House",
+      "category": "Self-Help",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://thinhvu.com/wp-content/uploads/2023/02/atomic-habits-bia-677x1024.jpg",
+      "images": [
+        "https://bizweb.dktcdn.net/100/431/180/files/132407764-153368799551538-4648218921567607065-n.jpg?v=1636451705974",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltznvobr58v3b6https://i.dummyjson.com/data/products/23/2.jpg",
+        "https://bizweb.dktcdn.net/thumb/grande/100/197/269/products/1a54924207d353105709a08d0637d91f.jpg?v=1704690423900https://i.dummyjson.com/data/products/23/3.jpg",
+        "https://nhasachphuongnam.com/images/detailed/273/thay-doi-ti-hon-hieu-qua-bat-ngo-tb-2024-b4.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Grit",
+      "author": "Angela Duckworth",
+      "description": "Angela Duckworth's research on the power of passion and perseverance.",
+      "price": 95000,
+      "discountPercentage": 18,
+      "rating": 4.7,
+      "stock": 60,
+      "brand": "Simon and Schuster",
+      "category": "Self-Help",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://bizweb.dktcdn.net/thumb/large/100/197/269/products/vung-tam-ben-chi.jpg?v=1551675626777https://i.dummyjson.com/data/products/24/thumbnail.jpg",
+      "images": [
+        "https://bizweb.dktcdn.net/thumb/grande/100/197/269/files/vungtambenchi.jpg?v=1563960542200",
+        "https://bluehorizonbook.com/wp-content/uploads/kiotviet_926b491bc6103a63c9fd7cbf5c9ab1bb.jpeg",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqsq43tdqs6v93",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThtaF7fQRupAeaDqx1uLCybmL0jcLHtphufw&s"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "The Shining",
+      "author": "Stephen King",
+      "description": "Stephen King's horror novel about a haunted hotel.",
+      "price": 120000,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 40,
+      "brand": "Random House",
+      "category": "Horror",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lvcy4yo1gobx44",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxe6ayQwwW6GRZ10wQg1V3I9O_t2dPRPJdAg&s",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/the_shining/2020_11_16_15_53_31_18-390x510.png",
+        "https://vn-test-11.slatic.net/p/ba87c78ebf09e516d23562c16beb0749.jpg",
+        "https://revelogue.com/wp-content/uploads/2021/12/Phim-The-shining-hinh-anh-1-e1640847156223.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "It",
+      "author": "Stephen King",
+      "description": "Stephen King's horror novel about a malevolent entity that haunts a small town.",
+      "price": 130000,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "stock": 50,
+      "brand": "Random House",
+      "category": "Horror",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://down-vn.img.susercontent.com/file/289d3c161be25fcc6ed0a68156a2ce15",
+      "images": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lw5ju6u5rrz9ae",
+        "https://images.gr-assets.com/books/1334416842l/830502.jpg",
+        "https://bizweb.dktcdn.net/100/180/408/products/it-ga-he-ma-quai-tap-2-2.jpg?v=1654072113757",
+        "https://media.viez.vn/prod/2021/10/1/image_9992e6ba29.png"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "The Exorcist",
+      "author": "William Peter Blatty",
+      "description": "William Peter Blatty's tale about a young girl possessed by a demon.",
+      "price": 110000,
+      "discountPercentage": 20,
+      "rating": 4.7,
+      "stock": 45,
+      "brand": "Random House",
+      "category": "Horror",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://cdn0.fahasa.com/media/catalog/product/q/u/qu_-_m---b_a-1_2.jpg",
+      "images": [
+        "https://product.hstatic.net/200000845405/product/2024_07_22_16_30_43_3-390x510_c0f6733d74d44c28b90a2c3a062fdea1_master.jpg",
+        "https://toquoc.mediacdn.vn/280518851207290880/2021/7/30/anh-1-1627631322429712620472-1627656539592-16276565397541612471386.jpg",
+        "https://mcgrocer.com/cdn/shop/files/9780552166775.jpg?v=1713762807",
+        "https://static.ybox.vn/2020/5/3/1590554187304-Thie%CC%82%CC%81t%20ke%CC%82%CC%81%20kho%CC%82ng%20te%CC%82n%20(12).png"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Bird Box",
+      "author": "Josh Malerman",
+      "description": "Josh Malerman's terrifying novel about an apocalyptic world where people must stay blindfolded to survive.",
+      "price": 95000,
+      "discountPercentage": 18,
+      "rating": 4.6,
+      "stock": 50,
+      "brand": "Random House",
+      "category": "Horror",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://www.netabooks.vn/Data/Sites/1/Product/30934/bird-box.jpg",
+      "images": [
+        "https://trangtrinhtham.wordpress.com/wp-content/uploads/2019/10/bird-box-1.jpg",
+        "https://down-vn.img.susercontent.com/file/306c01b2576e84133d89114fc4154a3a",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/bird_box/2020_09_17_17_41_41_2-390x510.jpg",
+        "https://kenh14cdn.com/2019/1/10/photo-1-15471163175701237673196.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "description": "Mary Shelley's iconic novel about a scientist who creates a monster.",
+      "price": 105000,
+      "discountPercentage": 12,
+      "rating": 4.8,
+      "stock": 30,
+      "brand": "Penguin",
+      "category": "Horror",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://down-vn.img.susercontent.com/file/6b3c483f44d2de89116095d30ccd8be9",
+      "images": [
+        "https://m.media-amazon.com/images/I/71+4u8A1Y6L._SL1500_.jpg",
+        "https://thebookland.vn/thumbnail_1200/F5647.webp",
+        "https://product.hstatic.net/200000122283/product/frankenstein-t-e1-ba-adp-1-c4-90-e1-bb-a9a-con-lang-b-e1-ba-a1t_2061e1e1bcc64b8b8a5efc3c6538ff23_grande.jpeg",
+        "https://bookish.vn/wp-content/uploads/2020/04/bernie-wrightson-frankenstein-1000x600.png"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Coraline",
+      "author": "Neil Gaiman",
+      "description": "Neil Gaiman's creepy tale of a girl who discovers a parallel world.",
+      "price": 95000,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 35,
+      "brand": "Harpercollins",
+      "category": "Horror",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://www.netabooks.vn/Data/Sites/1/Product/69464/coraline.jpg",
+      "images": [
+        "https://cdn0.fahasa.com/media/catalog/product/c/o/coraline_1_2018_09_22_09_43_12.jpgttps://i.dummyjson.com/data/products/30/1.jpg",
+        "https://360vds.viettel.vn/uploads/360vds.viettel.vn/posts/wFqhcfhl1gqSr5dchTbDjxrgI0AfTgzrRkT6C4Ha-560x380.jpeg",
+        "https://salt.tikicdn.com/cache/280x280/ts/product/88/85/77/394b4a3db4eec356df2ac9913bdaab60.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEgH48xfTffEDTuLXVXftmNzLR9nYXVDMvhw&s"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Việt Nam Sử-Lược",
+      "author": "Trần Trọng Kim",
+      "description": "Cuốn sách tóm tắt lịch sử Việt Nam từ thời Hùng Vương đến hiện đại.",
+      "price": 120000,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 100,
+      "brand": "NXB Văn Học",
+      "category": "History",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://salt.tikicdn.com/cache/w1200/ts/product/62/22/03/159353aa229c6c8a94783f8c5b238ef7.jpg",
+      "images": [
+        "https://static.kinhtedothi.vn/w900/images/upload/2022/01/07/a4efd0e6-c1ee-4fa2-835b-8b0589af5c6e.jpg",
+        "https://nld.mediacdn.vn/zoom/700_438/2020/12/10/13083252222114615889780252285147367557727553n-1607589263362567796850.jpg",
+        "https://salt.tikicdn.com/cache/w1200/ts/product/62/22/03/159353aa229c6c8a94783f8c5b238ef7.jpg",
+        "https://i.ytimg.com/vi/fzAK8fHhc3M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD8hcQsxR-HR55EGRwl08NWCliJkw"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Hồ Chí Minh Toàn Tập",
+      "author": "Hồ Chí Minh",
+      "description": "Tuyển tập các bài viết và tư liệu lịch sử của Chủ tịch Hồ Chí Minh.",
+      "price": 150000,
+      "discountPercentage": 15,
+      "rating": 4.9,
+      "stock": 80,
+      "brand": "NXB Trẻ",
+      "category": "History",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://nhasachmienphi.com/images/thumbnail/nhasachmienphi-ho-chi-minh-toan-tap.jpg",
+      "images": [
+        "https://tulieuvankien.dangcongsan.vn/Uploads/2018/6/2/14/hcm1.jpg",
+        "https://khosachcu.com/image/cache/data/Sach-Xua/ho-chi-minh-toan-tap-tap-6-390x525.JPG",
+        "https://baotanghochiminh.vn/pic/Customer/pic-Custo_638338451277631597_HasThumb_Thumb.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_UxLkstAmHZgrjqNumwM0IRl86ReE4RXDBVjU4s5GeclIux1dBSej4V35Bf9Xo0hWlHM&usqp=CAU"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "The History of Vietnam",
+      "author": "John Smith",
+      "description": "A detailed analysis of Vietnam's history written in English.",
+      "price": 250000,
+      "discountPercentage": 12,
+      "rating": 4.7,
+      "stock": 50,
+      "brand": "Penguin",
+      "category": "History",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://www.nxbtre.com.vn/Images/Book/nxbtre_thumb_08482022_024832.jpg",
+      "images": [
+        "https://www.nxbtre.com.vn/Images/Book/nxbtre_thumb_11052021_030513.jpg",
+        "https://product.hstatic.net/1000273499/product/91sk-vq7jyl._sl1500__2138abaf1a104734b20b2e5981db5003_1024x1024.jpg",
+        "https://bizweb.dktcdn.net/thumb/grande/100/490/462/products/a-history-of-vietnam-in-pictures-the-collapse-of-le-so-hardcover-2.jpg?v=1690038745467",
+        "https://www.nxbtre.com.vn/Images/Read/nxbtre_a-history-of-vietnam-in-pictures-nguyen-hoang-the-good-lord.pdf_page-2.png"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Đại Việt Sử Ký Toàn Thư",
+      "author": "Ngô Sĩ Liên",
+      "description": "Tác phẩm lịch sử lớn nhất của Việt Nam, biên soạn từ thời Trần.",
+      "price": 200000,
+      "discountPercentage": 10,
+      "rating": 4.6,
+      "stock": 60,
+      "brand": "Kim Đồng",
+      "category": "History",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://vietsu.org/wp-content/uploads/2021/02/dai-viet-su-ky.jpg",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMM6eMXF12KYtpejM8SXvBz-o4PxdxniXmQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHImSkDCm4JDWYQmPsnnb8I1K3IBDMWZIXKA&s",
+        "https://tusachxua.com/wp-content/uploads/2020/11/daivietsuky_bia3-600x800.jpg",
+        "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1591538182i/53881923.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Bình Ngô Đại Cáo",
+      "author": "Nguyễn Trãi",
+      "description": "Bình Ngô đại cáo là một áng văn chương bất hủ, tuyên bố nền độc lập của Đại Việt sau khi đánh bại quân Minh xâm lược.",
+      "price": 140000,
+      "discountPercentage": 12,
+      "rating": 4.8,
+      "stock": 40,
+      "brand": "NXB Trẻ",
+      "category": "History",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://isach.info/images/story/cover/binh_ngo_dai_cao__nguyen_trai.jpg",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShTk9UXa41yz-NFV57fD30tP046mutvqCM5w&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7NVhdWTctWrL6h-WgvoC1D8vQWLxKEJQqQ&s",
+        "https://img.giaoduc.net.vn/1200x630/Uploaded/2024/cunagurubnv81/2023_04_02/bndc-3142.jpg",
+        "https://hocvanchihien.com/Upload/Images/images/binh-ngo-dai-cao-01.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Việt Nam: Những Trận Đánh Lịch Sử",
+      "author": "Phan Ngọc Liên",
+      "description": "Cuốn sách này cung cấp một cái nhìn sâu sắc về các trận đánh quan trọng trong lịch sử Việt Nam, từ thời kỳ cổ đại đến hiện đại.",
+      "price": 250000,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "availability": true,
+      "brand": "NXB Trẻ",
+      "category": "History",
+      "language": "Vietnamese",
+      "thumbnail": "https://www.nxbtre.com.vn/Images/Book/NXBTreStoryFull_275.jpg",
+      "images": [
+        "https://www.netabooks.vn/Data/Sites/1/Product/27361/10-tran-danh-noi-tieng-trong-lich-su-viet-nam.jpg",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lvvgwpjopja357",
+        "https://lh4.googleusercontent.com/proxy/d94L1ee3TI5I0_SMW6yRsLDDcfCUSMPCEGyRWAkW5zmt97kbf2pobNh2tQn9RTG1PhV5RL9Fy0yNeA1wY-TPhs1Jx5Tz3Ht3pD23gt_3jhH-v3cqbbFTRkcm_7U",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdRtB8sYu7MNUYiGn2son6k8EfYE4x53envA&s"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Me Before You",
+      "author": "Jojo Moyes",
+      "description": "Một câu chuyện về tình yêu và sự hy sinh giữa Louisa và Will, một người đàn ông bị liệt.",
+      "price": 150000,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "stock": 75,
+      "brand": "Penguin",
+      "category": "Romantic",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://cdn0.fahasa.com/media/catalog/product/0/1/0143124544.01.s001.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71IszuvUCEL.jpg",
+        "https://down-vn.img.susercontent.com/file/885dc0bbf15ffb9ca2181d52726c9580",
+        "https://product.hstatic.net/200000896417/product/1cf2b164c4c240dd825685112064f277_8c6ecfbebda54b149b86fd48adc136b5_master.jpg",
+        "https://m.media-amazon.com/images/I/61eeCv1vVOL._AC_UF1000,1000_QL80_.jpg"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Gone with the Wind",
+      "author": "Margaret Mitchell",
+      "description": "Câu chuyện tình yêu giữa Scarlett O'Hara và Rhett Butler trong bối cảnh chiến tranh.",
+      "price": 180000,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 50,
+      "brand": "Macmillan",
+      "category": "Romantic",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://bizweb.dktcdn.net/thumb/grande/100/378/470/products/gone-with-the-wind-paperback-january-1-2019-us.jpg?v=1669801295847",
+      "images": [
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lx122z6zkbmhd2",
+        "https://upload.wikimedia.org/wikipedia/vi/6/6b/Gone_with_the_Wind_cover.jpg://example.com/gone_with_the_wind_2.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEGdrKNOg9EfH2PVd3zmm4wm_qWXHT-UBAcw&s",
+        "https://vcdn1-giaitri.vnecdn.net/2022/05/16/Annex-Leigh-Vivien-Gone-With-t-5998-4799-1652687990.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=XBu_E96Az6mtndUeDut9Bw"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "The Notebook",
+      "author": "Nicholas Sparks",
+      "description": "A heartwarming tale of love, sacrifice, and enduring relationships.",
+      "price": 200000,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 50,
+      "brand": "Penguin",
+      "category": "Romantic",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_25735.jpg",
+      "images": [
+        "https://isach.info/images/story/cover/the_notebook__nicholas_sparks.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/the_notebook/2020_04_28_17_02_46_3-390x510.png",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/the_notebook/2020_04_28_17_02_46_12-390x510.png",
+        "https://kenh14cdn.com/2018/6/26/photo-1-15299982879001042075975.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "description": "Một câu chuyện cảm động về hai người trẻ tuổi mắc bệnh ung thư và tình yêu của họ.",
+      "price": 120000,
+      "discountPercentage": 10,
+      "rating": 4.6,
+      "stock": 80,
+      "brand": "Dutton Books",
+      "category": "Romantic",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://cdn0.fahasa.com/media/catalog/product/9/7/9780142424179.jpg",
+      "images": [
+        "https://docsachcungcon.com/wp-content/uploads/2020/03/The-Fault-in-Our-Stars-cover-book-1.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO8KVJxL8RN9W-p3QJdQc-wPliBtb0aiWGyg&s",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/the_fault_in_our_stars/2023_03_30_10_46_28_8-390x510.jpg",
+        "https://docsachcungcon.com/wp-content/uploads/2020/03/The-Fault-in-Our-Stars-cover-book-3.jpg"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A classic love story set in 19th century England, written by Jane Austen.",
+      "price": 180000,
+      "discountPercentage": 15,
+      "rating": 4.9,
+      "stock": 40,
+      "brand": "Bloomsbury",
+      "category": "Romantic",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://cdn0.fahasa.com/media/catalog/product/9/7/9780451530783_1.jpg",
+      "images": [
+        "https://pibook.vn/upload/product-slide/pride-and-prejudice-2.jpg",
+        "https://pibook.vn/upload/products/pride-and-prejudice-1.jpgttps://example.com/romantic5-2.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/9/7/9780553213102.jpg",
+        "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lftlepgjca5m43"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Outlander",
+      "author": "Diana Gabaldon",
+      "description": "Sự kết hợp của tình yêu, lịch sử và du hành thời gian giữa Claire và Jamie.",
+      "price": 160000,
+      "discountPercentage": 12,
+      "rating": 4.8,
+      "stock": 65,
+      "brand": "Doubleday",
+      "category": "Romantic",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://cdn0.fahasa.com/media/catalog/product/o/u/outlander___chuon_chuon_ho_phach___tap_1_1_2018_08_04_11_00_24.JPG",
+      "images": [
+        "https://cdn0.fahasa.com/media/catalog/product/8/9/8935212331272_1.jpg",
+        "https://www.elle.vn/wp-content/uploads/2018/07/01/elle-viet-nam-vien-tuong-Outlander-Outlander-Wiki-Fandom.jpg",
+        "https://file.hstatic.net/1000359719/file/phim-15_aeba68891d1642ce9a04df845627f8b7_grande.jpg",
+        "https://static.ybox.vn/2019/4/0/1554649797145-outlander.jpg"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Tư Duy Nhanh Và Chậm",
+      "author": "Daniel Kahneman",
+      "description": "Cuốn sách cung cấp các kỹ năng tư duy sắc bén, giúp ra quyết định hiệu quả.",
+      "price": 220000,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 70,
+      "brand": "Oxford",
+      "category": "Education",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://bizweb.dktcdn.net/thumb/grande/100/197/269/products/462558750-1083111936819329-1957541486232979466-n.png?v=1730363480047",
+      "images": [
+        "https://cdn.24hmoney.vn/upload/images/2023-3/article_img/2023-08-22/3e4b1b3ad4c6406e4c00b4f184e716f3-1692676086-width1200height1200.jpg",
+        "https://sachngoaingugiare.com/wp-content/uploads/2021/06/tu-duy-nhanh-va-cham-2.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tu_duy_nhanh_va_cham_tai_ban_2021/2021_06_23_08_21_26_2-390x510.jpg",
+        "https://viectop.com.vn/uploads/images/review%20tu%20duy%20nhanh%20va%20cham(1).jpeg"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "description": "A groundbreaking book that explains complex scientific concepts such as space, time, and the universe in a way that is accessible to the general public. It explores the nature of the universe and the fundamental forces of physics.",
+      "price": 200000,
+      "discountPercentage": 15,
+      "rating": 4.9,
+      "stock": 50,
+      "brand": "Bantam Books",
+      "category": "Education",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://cdn0.fahasa.com/media/catalog/product/a/_/a_brief_history_of_time_1_2019_03_07_16_02_09.jpg",
+      "images": [
+        "https://cdn0.fahasa.com/media/catalog/product/a/_/a_brief_history_of_time_5_2019_03_07_16_02_09.png",
+        "https://salt.tikicdn.com/cache/280x280/ts/product/1e/12/56/0dece5fcaf659d240063ad2a7e1bf558.jpg",
+        "https://www.nxbtre.com.vn/Images/Book/nxbtre_full_20002022_040049.jpgg",
+        "https://openedu.vn/files/assets/c59f32d7-9079-4a76-8ed4-fb3c5fadecff.webp?fit=inside&width=800&height=600&quality=90&format=webp"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "The Selfish Gene",
+      "author": "Richard Dawkins",
+      "description": "A landmark book in the field of evolutionary biology, in which Richard Dawkins presents a gene-centered view of evolution, explaining how natural selection operates at the level of genes rather than individuals or species.",
+      "price": 170000,
+      "discountPercentage": 8,
+      "rating": 4.8,
+      "stock": 80,
+      "brand": "Oxford University Press",
+      "category": "Education",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://bluehorizonbook.com/wp-content/uploads/kiotviet_1a41ddc452d46ae9ec20b4f4c7935630.jpg",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZOAUKIHUnPP4Cmwn4G4_YSWgnHAZnjOf8dg&s",
+        "https://pos.nvncdn.com/492118-174099/ps/20240517_VnlCqrhCJC.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnxI3RTo2V45FIfJKKzhpdMnQxeUMrwEG2KA&s",
+        "https://image.slidesharecdn.com/theselfishgene-160314133731/85/The-selfish-gene-4-320.jpg"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "description": "A memoir about a woman's quest for knowledge, growing up in a strict and abusive household in rural Idaho without formal education.",
+      "price": 280000,
+      "discountPercentage": 12,
+      "rating": 4.6,
+      "stock": 40,
+      "brand": "Random House",
+      "category": "Education",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf1uC2D1iEq9bdc0W8dapdheV5nu433VZwhw&s",
+      "images": [
+        "https://bizweb.dktcdn.net/100/180/408/products/duoc-hoc-sachkhaiminh.jpg?v=1631120441167",
+        "https://cdn.tuoitre.vn/thumb_w/480/2019/4/21/img4111-2read-only-15558173109131945763496.jpg",
+        "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lvlbhl5q41v2bf",
+        "https://bizweb.dktcdn.net/100/180/408/files/duoc-hoc-bia.jpg?v=1610638332492"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Cẩm Nang Tự Học IELTS",
+      "author": "Cambridge",
+      "description": "Cuốn sách hướng dẫn học IELTS từ cơ bản đến nâng cao. Hệ thống các chủ đề về từ vựng và trao dồi ngữ pháp một cách khoa học!",
+      "price": 190000,
+      "discountPercentage": 12,
+      "rating": 4.7,
+      "stock": 90,
+      "brand": "Cambridge",
+      "category": "Education",
+      "language": "Vietnamese",
+      "availability": true,
+      "thumbnail": "https://nhasachphuongnam.com/images/detailed/225/ielts-foundation-cam-nang-tu-hoc-ielts-ai-cung-can.jpg",
+      "images": [
+        "https://salt.tikicdn.com/cache/w1200/media/catalog/product/c/a/cam-nang-tu-hoc-ielts--cover-.u3059.d20170613.t094633.695747.jpg",
+        "https://kientranhandbook.wordpress.com/wp-content/uploads/2020/07/110113409_723345625110712_6947559223020852724_o.jpg",
+        "https://wiseenglish.edu.vn/wp-content/uploads/2020/12/sach-ielts-listening-cam-nang-tu-hoc-2-1.jpg.webp",
+        "https://st.ielts-fighter.com/crop/ielts-fighter-image/400x250/2022/06/29/3d5a3b8c-cc98-4c70-a8a0-859df6ab0d55.png"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "The Art of Learning",
+      "author": "Josh Waitzkin",
+      "description": "Lessons on mastering any skill through focused learning.",
+      "price": 230000,
+      "discountPercentage": 10,
+      "rating": 4.8,
+      "stock": 55,
+      "brand": "Macmillan",
+      "category": "Education",
+      "language": "English",
+      "availability": true,
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348688766i/857333.jpg",
+      "images": [
+        "https://batansach.com/wp-content/uploads/2023/02/the-art-book-for-children-bia-cung.jpg",
+        "https://m.media-amazon.com/images/I/71gK1Gy2h8L._UX250_.jpg",
+        "https://images.squarespace-cdn.com/content/v1/54541a13e4b0331fc2f2a0f7/1426294122834-BI139F9POYHPDRPQMAV1/chess-taichi-gradient.png",
+        "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348688766i/857333.jpg"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "value": "NXB Trẻ",
+      "label": "NXB Trẻ",
+      "checked": false
+    },
+    {
+      "value": "Bantam Books",
+      "label": "Bantam Books",
+      "checked": false
+    },
+    {
+      "value": "Kim Đồng",
+      "label": "Kim Đồng",
+      "checked": false
+    },
+    {
+      "value": "Oxford University Press",
+      "label": "Oxford University Press",
+      "checked": false
+    },
+    {
+      "value": "Doubleday",
+      "label": "Doubleday",
+      "checked": false
+    },
+    {
+      "value": "Simon And Schuster",
+      "label": "Simon And Schuster",
+      "checked": false
+    },
+    {
+      "value": "NXB Văn Học",
+      "label": "NXB Văn Học",
+      "checked": false
+    },
+    {
+      "value": "Dutton Books",
+      "label": "Dutton Books",
+      "checked": false
+    },
+    {
+      "value": "Penguin",
+      "label": "Penguin",
+      "checked": false
+    },
+    {
+      "value": "Harpercollins",
+      "label": "Harpercollins",
+      "checked": false
+    },
+    {
+      "value": "Bloomsbury",
+      "label": "Bloomsbury",
+      "checked": false
+    },
+    {
+      "value": "Scholastic",
+      "label": "Scholastic",
+      "checked": false
+    },
+    {
+      "value": "Macmillan",
+      "label": "Macmillan",
+      "checked": false
+    },
+    {
+      "value": "Random House",
+      "label": "Random House",
+      "checked": false
+    },
+    {
+      "value": "Riverhead Books",
+      "label": "Riverhead Books",
+      "checked": false
+    },
+    {
+      "value": "Oxford",
+      "label": "Oxford",
+      "checked": false
+    },
+    {
+      "value": "Cambridge",
+      "label": "Cambridge",
+      "checked": false
+    }
+  ],
+  "categories": [
+    {
+      "value": "Manga",
+      "label": "Manga",
+      "checked": false
+    },
+    {
+      "value": "Self-Help",
+      "label": "Self-Help",
+      "checked": false
+    },
+    {
+      "value": "Novel",
+      "label": "Novel",
+      "checked": false
+    },
+    {
+      "value": "Viet Nam Literature",
+      "label": "Viet Nam Literature",
+      "checked": false
+    },
+    {
+      "value": "History",
+      "label": "History",
+      "checked": false
+    },
+    {
+      "value": "Romantic",
+      "label": "Romantic",
+      "checked": false
+    },
+    {
+      "value": "Horror",
+      "label": "Horror",
+      "checked": false
+    },
+    {
+      "value": "Education",
+      "label": "Education",
+      "checked": false
+    }
+  ],
+  "users": [],
+  "cart": [],
+  "orders": []
+}

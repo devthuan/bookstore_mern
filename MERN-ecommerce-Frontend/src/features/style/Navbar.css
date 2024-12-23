@@ -1,0 +1,30 @@
+/* Hộp input search */
+.search-input {
+padding: 10px 40px 10px 15px;
+border: 1px solid #ccc;
+border-radius: 8px;
+background-color: #fff;
+width: 250px;
+transition: all 0.3s ease;
+box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input:focus {
+outline: none;
+border-color: #6c63ff;
+box-shadow: 0 0 8px rgba(108, 99, 255, 0.5);
+transform: scale(1.03);
+}
+
+/* Nút tìm kiếm */
+button {
+background: transparent;
+border: none;
+cursor: pointer;
+padding: 0;
+transition: color 0.3s ease;
+}
+
+button:hover svg {
+stroke: #6c63ff;
+}

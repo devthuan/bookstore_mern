@@ -1,0 +1,109 @@
+/* General styling for the success page */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3e2a47, #5a4e72, #4b5d67);
+    animation: backgroundAnimation 12s infinite alternate;
+    overflow: hidden;
+}
+
+/* Smooth background animation */
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* Blur effect for the container */
+.blur-effect {
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.6);
+    color: #e0e0e0;
+}
+
+/* Styling for the order success text */
+.order-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #f0e68c;
+    animation: pulse 3s infinite;
+}
+
+/* Pulsing animation for the order number */
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+/* Styling for the link button */
+.btn-glow {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background: #6a5acd;
+    color: #ffffffb4;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.4s, background 0.4s;
+}
+
+.btn-glow:hover {
+    background: #483d8b;
+    transform: scale(1.1);
+}
+
+/* Firework effect */
+.fireworks-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 50%;
+    pointer-events: none;
+}
+
+.firework {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: firework-animation 2s infinite ease-in-out;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+/* Rainbow falling effect */
+@keyframes firework-animation {
+    0% {
+        transform: translate(-50%, 0);
+        opacity: 1;
+        background-color: #ff6347;
+    }
+    25% {
+        background-color: #ffd700;
+        transform: translate(-50%, -100px);
+    }
+    50% {
+        background-color: #32cd32;
+        transform: translate(-50%, -200px);
+    }
+    75% {
+        background-color: #8a2be2;
+        transform: translate(-50%, -300px);
+    }
+    100% {
+        background-color: #00bfff;
+        opacity: 0;
+        transform: translate(-50%, -400px);
+    }
+}

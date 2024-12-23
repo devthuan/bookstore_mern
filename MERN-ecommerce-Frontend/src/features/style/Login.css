@@ -1,0 +1,94 @@
+/* Nền gradient nhẹ nhàng */
+body {
+background: linear-gradient(135deg, #eaecef, #f9f9fc);
+background-size: 200% 200%;
+animation: gradientAnimation 8s ease infinite;
+}
+
+@keyframes gradientAnimation {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+/* Hộp login hiệu ứng 3D và trôi nổi */
+form {
+background: #ffffff;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+            0 10px 20px rgba(0, 0, 0, 0.1), 
+            inset 0 2px 4px rgba(255, 255, 255, 0.1);
+padding: 25px;
+animation: float 4s ease-in-out infinite;
+transform-style: preserve-3d;
+transform: perspective(1000px);
+}
+
+@keyframes float {
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(-8px); }
+}
+
+/* Tiêu đề fade-in với bóng chữ */
+h2 {
+color: #4a4a4a;
+font-size: 2rem;
+font-weight: bold;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+animation: fadeIn 2.5s ease-out;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; transform: translateY(-20px); }
+100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Nút bấm hiệu ứng 3D */
+button {
+background: linear-gradient(135deg, #6c63ff, #8eaaff);
+color: white;
+border: none;
+border-radius: 10px;
+padding: 12px 20px;
+cursor: pointer;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+            0 6px 15px rgba(108, 99, 255, 0.5);
+transition: all 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+background: linear-gradient(135deg, #8eaaff, #6c63ff);
+transform: translateY(-3px);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 
+            0 10px 20px rgba(108, 99, 255, 0.7);
+}
+
+/* Input hiệu ứng viền nổi */
+input {
+border: 1px solid #ddd;
+border-radius: 10px;
+padding: 12px;
+background: linear-gradient(135deg, #ffffff, #f8f9fd);
+box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1), 
+            inset -1px -1px 5px rgba(255, 255, 255, 0.8);
+transition: all 0.3s ease;
+}
+
+input:focus {
+border-color: #6c63ff;
+box-shadow: 0 0 10px rgba(108, 99, 255, 0.5), 
+            inset 0 2px 4px rgba(255, 255, 255, 0.6);
+transform: scale(1.02);
+}
+
+/* Link hiệu ứng màu nổi bật */
+a {
+color: #6c63ff;
+text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+color: #4a4a4a;
+text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
