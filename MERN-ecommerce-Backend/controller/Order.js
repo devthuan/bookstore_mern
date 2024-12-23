@@ -17,22 +17,28 @@ exports.fetchOrdersByUser = async (req, res) => {
 exports.createOrder = async (req, res) => {
   const order = new Order(req.body);
   // here we have to update stocks;
+  console.log(order);
 
   for (let item of order.items) {
-    let product = await Product.findOne({ _id: item.product.id })
-    product.$inc('stock', -1 * item.quantity);
+    let product = await Product.findOne({ _id: item.product.id });
+    product.$inc("stock", -1 * item.quantity);
     // for optimum performance we should make inventory outside of product.
-    await product.save()
+    await product.save();
   }
 
   try {
     const doc = await order.save();
-    const user = await User.findById(order.user)
-    // we can use await for this also 
-    sendMail({ to: user.email, html: invoiceTemplate(order), subject: 'Order Received' })
+    const user = await User.findById(order.user);
+    // we can use await for this also
+    sendMail({
+      to: user.email,
+      html: invoiceTemplate(order),
+      subject: "Order Received",
+    });
 
     res.status(201).json(doc);
   } catch (err) {
+    console.log(err);
     res.status(400).json(err);
   }
 };
@@ -65,7 +71,6 @@ exports.fetchAllOrders = async (req, res) => {
   let query = Order.find({ deleted: { $ne: true } });
   let totalOrdersQuery = Order.find({ deleted: { $ne: true } });
 
-
   if (req.query._sort && req.query._order) {
     query = query.sort({ [req.query._sort]: req.query._order });
   }
@@ -81,7 +86,7 @@ exports.fetchAllOrders = async (req, res) => {
 
   try {
     const docs = await query.exec();
-    res.set('X-Total-Count', totalDocs);
+    res.set("X-Total-Count", totalDocs);
     res.status(200).json(docs);
   } catch (err) {
     res.status(400).json(err);

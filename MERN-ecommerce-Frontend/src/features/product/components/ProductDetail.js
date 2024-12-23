@@ -1,22 +1,20 @@
-import { useState, useEffect } from 'react';
-import { StarIcon } from '@heroicons/react/20/solid';
-import { RadioGroup } from '@headlessui/react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useState, useEffect } from "react";
+import { StarIcon } from "@heroicons/react/20/solid";
+import { RadioGroup } from "@headlessui/react";
+import { useDispatch, useSelector } from "react-redux";
 import {
   fetchProductByIdAsync,
   selectProductById,
   selectProductListStatus,
-} from '../productSlice';
-import { useParams } from 'react-router-dom';
-import { addToCartAsync, selectItems } from '../../cart/cartSlice';
-import { useAlert } from 'react-alert';
-import { BallTriangle } from 'react-loader-spinner';
-
+} from "../productSlice";
+import { useParams } from "react-router-dom";
+import { addToCartAsync, selectItems } from "../../cart/cartSlice";
+import { useAlert } from "react-alert";
+import { BallTriangle } from "react-loader-spinner";
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }
-
 
 export default function ProductDetail() {
   const [selectedColor, setSelectedColor] = useState();
@@ -30,37 +28,36 @@ export default function ProductDetail() {
 
   const handleCart = (e) => {
     e.preventDefault();
-  
-  
-// Ensure items and product exist
-const cartItems = Array.isArray(items) ? items : [];
-  
-if (!product?.id) {
-  alert.error('Invalid product');
-  return;
-}
 
-try {
-  const existingItemIndex = cartItems.findIndex(
-    (item) => item?.product?.id === product.id
-  );
+    // Ensure items and product exist
+    const cartItems = Array.isArray(items) ? items : [];
 
-  if (existingItemIndex < 0) {
-    console.log({ items: cartItems, product });
-    const newItem = {
-      product: product.id,
-      quantity: 1,
-    };
-    
-    dispatch(addToCartAsync({ item: newItem, alert }));
-  } else {
-    alert.error('Book Already added');
-  }
-} catch (error) {
-  console.error('Error adding book to cart:', error);
-  alert.error('Failed to add book to cart');
-}
-};
+    if (!product?.id) {
+      alert.error("Invalid product");
+      return;
+    }
+
+    try {
+      const existingItemIndex = cartItems.findIndex(
+        (item) => item?.product?.id === product.id
+      );
+
+      if (existingItemIndex < 0) {
+        console.log({ items: cartItems, product });
+        const newItem = {
+          product: product.id,
+          quantity: 1,
+        };
+
+        dispatch(addToCartAsync({ item: newItem, alert }));
+      } else {
+        alert.error("Book Already added");
+      }
+    } catch (error) {
+      console.error("Error adding book to cart:", error);
+      alert.error("Failed to add book to cart");
+    }
+  };
 
   useEffect(() => {
     dispatch(fetchProductByIdAsync(params.id));
@@ -68,16 +65,18 @@ try {
 
   return (
     <div className="bg-white">
-      {status === 'loading' ? <BallTriangle
-        height={100}
-        width={100}
-        radius={5}
-        color="rgb(79, 70, 229)"
-        ariaLabel="ball-triangle-loading"
-        wrapperStyle={{}}
-        wrapperClass=""
-        visible={true}
-      /> : null}
+      {status === "loading" ? (
+        <BallTriangle
+          height={100}
+          width={100}
+          radius={5}
+          color="rgb(79, 70, 229)"
+          ariaLabel="ball-triangle-loading"
+          wrapperStyle={{}}
+          wrapperClass=""
+          visible={true}
+        />
+      ) : null}
       {product && (
         <div className="pt-6">
           <nav aria-label="Breadcrumb">
@@ -166,7 +165,7 @@ try {
                 {product.price} VNĐ
               </p>
               <p className="text-3xl tracking-tight text-gray-900">
-              {product.discountPrice} VNĐ
+                {product.price * ((100 - product.discountPercentage) / 100)} VNĐ
               </p>
 
               {/* Reviews */}
@@ -179,9 +178,9 @@ try {
                         key={rating}
                         className={classNames(
                           product.rating > rating
-                            ? 'text-gray-900'
-                            : 'text-gray-200',
-                          'h-5 w-5 flex-shrink-0'
+                            ? "text-gray-900"
+                            : "text-gray-200",
+                          "h-5 w-5 flex-shrink-0"
                         )}
                         aria-hidden="true"
                       />
@@ -213,9 +212,9 @@ try {
                             className={({ active, checked }) =>
                               classNames(
                                 color.selectedClass,
-                                active && checked ? 'ring ring-offset-1' : '',
-                                !active && checked ? 'ring-2' : '',
-                                'relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none'
+                                active && checked ? "ring ring-offset-1" : "",
+                                !active && checked ? "ring-2" : "",
+                                "relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none"
                               )
                             }
                           >
@@ -226,7 +225,7 @@ try {
                               aria-hidden="true"
                               className={classNames(
                                 color.class,
-                                'h-8 w-8 rounded-full border border-black border-opacity-10'
+                                "h-8 w-8 rounded-full border border-black border-opacity-10"
                               )}
                             />
                           </RadioGroup.Option>
@@ -268,10 +267,10 @@ try {
                             className={({ active }) =>
                               classNames(
                                 size.inStock
-                                  ? 'cursor-pointer bg-white text-gray-900 shadow-sm'
-                                  : 'cursor-not-allowed bg-gray-50 text-gray-200',
-                                active ? 'ring-2 ring-indigo-500' : '',
-                                'group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6'
+                                  ? "cursor-pointer bg-white text-gray-900 shadow-sm"
+                                  : "cursor-not-allowed bg-gray-50 text-gray-200",
+                                active ? "ring-2 ring-indigo-500" : "",
+                                "group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6"
                               )
                             }
                           >
@@ -283,11 +282,11 @@ try {
                                 {size.inStock ? (
                                   <span
                                     className={classNames(
-                                      active ? 'border' : 'border-2',
+                                      active ? "border" : "border-2",
                                       checked
-                                        ? 'border-indigo-500'
-                                        : 'border-transparent',
-                                      'pointer-events-none absolute -inset-px rounded-md'
+                                        ? "border-indigo-500"
+                                        : "border-transparent",
+                                      "pointer-events-none absolute -inset-px rounded-md"
                                     )}
                                     aria-hidden="true"
                                   />

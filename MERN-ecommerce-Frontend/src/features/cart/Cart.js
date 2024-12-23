@@ -1,16 +1,16 @@
-import { Fragment, useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { Fragment, useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import {
   deleteItemFromCartAsync,
   selectCartLoaded,
   selectCartStatus,
   selectItems,
   updateCartAsync,
-} from './cartSlice';
-import { Link } from 'react-router-dom';
-import { Navigate } from 'react-router-dom';
-import { BallTriangle } from 'react-loader-spinner';
-import Modal from '../common/Modal';
+} from "./cartSlice";
+import { Link } from "react-router-dom";
+import { Navigate } from "react-router-dom";
+import { BallTriangle } from "react-loader-spinner";
+import Modal from "../common/Modal";
 
 export default function Cart() {
   const dispatch = useDispatch();
@@ -22,7 +22,11 @@ export default function Cart() {
 
   const totalAmount = Array.isArray(items)
     ? items.reduce(
-        (amount, item) => (item.product?.discountPrice || 0) * item.quantity + amount,
+        (amount, item) =>
+          (item.product?.price *
+            ((100 - item.product?.discountPercentage) / 100) || 0) *
+            item.quantity +
+          amount,
         0
       )
     : 0;
@@ -41,7 +45,10 @@ export default function Cart() {
 
   return (
     <>
-      {!Array.isArray(items) || !items.length && cartLoaded && <Navigate to="/" replace={true}></Navigate>}
+      {!Array.isArray(items) ||
+        (!items.length && cartLoaded && (
+          <Navigate to="/" replace={true}></Navigate>
+        ))}
 
       <div>
         <div className="mx-auto mt-12 bg-white max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -50,81 +57,93 @@ export default function Cart() {
               Cart
             </h1>
             <div className="flow-root">
-              {status === 'loading' ? <BallTriangle
-                height={100}
-                width={100}
-                radius={5}
-                color="rgb(79, 70, 229)"
-                ariaLabel="ball-triangle-loading"
-                wrapperStyle={{}}
-                wrapperClass=""
-                visible={true}
-              /> : null}
+              {status === "loading" ? (
+                <BallTriangle
+                  height={100}
+                  width={100}
+                  radius={5}
+                  color="rgb(79, 70, 229)"
+                  ariaLabel="ball-triangle-loading"
+                  wrapperStyle={{}}
+                  wrapperClass=""
+                  visible={true}
+                />
+              ) : null}
               <ul className="-my-6 divide-y divide-gray-200">
-                {Array.isArray(items) && items.map((item) => (
-                  <li key={item.id} className="flex py-6">
-                    <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-                      <img
-                        src={item.product?.thumbnail}
-                        alt={item.product?.title}
-                        className="h-full w-full object-cover object-center"
-                      />
-                    </div>
-
-                    <div className="ml-4 flex flex-1 flex-col">
-                      <div>
-                        <div className="flex justify-between text-base font-medium text-gray-900">
-                          <h3>
-                            <a href={item.product?.id}>{item.product?.title}</a>
-                          </h3>
-                          <p className="ml-4">${item.product?.discountPrice}</p>
-                        </div>
-                        <p className="mt-1 text-sm text-gray-500">
-                          {item.product?.brand}
-                        </p>
+                {Array.isArray(items) &&
+                  items.map((item) => (
+                    <li key={item.id} className="flex py-6">
+                      <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+                        <img
+                          src={item.product?.thumbnail}
+                          alt={item.product?.title}
+                          className="h-full w-full object-cover object-center"
+                        />
                       </div>
-                      <div className="flex flex-1 items-end justify-between text-sm">
-                        <div className="text-gray-500">
-                          <label
-                            htmlFor="quantity"
-                            className="inline mr-5 text-sm font-medium leading-6 text-gray-900"
-                          >
-                            Quantity
-                          </label>
-                          <select
-                            onChange={(e) => handleQuantity(e, item)}
-                            value={item.quantity}
-                          >
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                          </select>
-                        </div>
 
-                        <div className="flex">
-                          <Modal
-                            title={`Delete ${item.product?.title}`}
-                            message="Are you sure you want to delete this Cart item ?"
-                            dangerOption="Delete"
-                            cancelOption="Cancel"
-                            dangerAction={(e) => handleRemove(e, item.id)}
-                            cancelAction={() => setOpenModal(null)}
-                            showModal={openModal === item.id}
-                          ></Modal>
-                          <button
-                            onClick={e => { setOpenModal(item.id) }}
-                            type="button"
-                            className="font-medium text-indigo-600 hover:text-indigo-500"
-                          >
-                            Remove
-                          </button>
+                      <div className="ml-4 flex flex-1 flex-col">
+                        <div>
+                          <div className="flex justify-between text-base font-medium text-gray-900">
+                            <h3>
+                              <a href={item.product?.id}>
+                                {item.product?.title}
+                              </a>
+                            </h3>
+                            <p className="ml-4">
+                              $
+                              {(item.product?.price *
+                                (100 - item.product?.discountPercentage)) /
+                                100}
+                            </p>
+                          </div>
+                          <p className="mt-1 text-sm text-gray-500">
+                            {item.product?.brand}
+                          </p>
+                        </div>
+                        <div className="flex flex-1 items-end justify-between text-sm">
+                          <div className="text-gray-500">
+                            <label
+                              htmlFor="quantity"
+                              className="inline mr-5 text-sm font-medium leading-6 text-gray-900"
+                            >
+                              Quantity
+                            </label>
+                            <select
+                              onChange={(e) => handleQuantity(e, item)}
+                              value={item.quantity}
+                            >
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                            </select>
+                          </div>
+
+                          <div className="flex">
+                            <Modal
+                              title={`Delete ${item.product?.title}`}
+                              message="Are you sure you want to delete this Cart item ?"
+                              dangerOption="Delete"
+                              cancelOption="Cancel"
+                              dangerAction={(e) => handleRemove(e, item.id)}
+                              cancelAction={() => setOpenModal(null)}
+                              showModal={openModal === item.id}
+                            ></Modal>
+                            <button
+                              onClick={(e) => {
+                                setOpenModal(item.id);
+                              }}
+                              type="button"
+                              className="font-medium text-indigo-600 hover:text-indigo-500"
+                            >
+                              Remove
+                            </button>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </li>
-                ))}
+                    </li>
+                  ))}
               </ul>
             </div>
           </div>
